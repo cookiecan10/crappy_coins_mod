@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crappycoinsmod:gold_coin"
+    }
+  ],
+  "result": {
+    "item": "crappycoinsmod:iron_coin",
+    "count": 9
+  }
+}
