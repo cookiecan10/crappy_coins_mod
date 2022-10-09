@@ -7,6 +7,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-    public static final ItemGroup CRAPPYCOINSMOD = FabricItemGroupBuilder.build(new Identifier(CrappyCoinsMod.MOD_ID,
-            "gold_coin"), () -> new ItemStack(ModItems.GOLD_COIN));
+    public static final ItemGroup CRAPPYCOINSMOD = FabricItemGroupBuilder.build(
+            new Identifier(CrappyCoinsMod.MOD_ID, "gold_coin"), () -> new ItemStack(ModItems.GOLD_COIN));
 }

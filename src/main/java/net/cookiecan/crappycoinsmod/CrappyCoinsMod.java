@@ -1,6 +1,7 @@
 package net.cookiecan.crappycoinsmod;
 
 import net.cookiecan.crappycoinsmod.item.ModItems;
+import net.cookiecan.crappycoinsmod.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,5 +16,6 @@ public class CrappyCoinsMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModLootTableModifiers.modifyLootTables();
 	}
 }
